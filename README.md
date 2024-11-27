@@ -1,8 +1,8 @@
 ## Prova de Algoritmos e Lógica de Programação
 
-No arquivo `src/livros.txt` existe um conjunto de livros. Cada linha do arquivo possui os dados de livro contendo: Disciplina, Título, Autor, Editora eAno. Os dados estão delimitados pelo `$`.
+No arquivo `src/livros.txt` existe um conjunto de livros. Cada linha do arquivo possui os dados de um livro contendo: Disciplina, Título, Autor, Editora e Ano. Os dados estão delimitados pelo `$`.
 
-A função `txtToArray`, que está no arquivo `src/loadLivros.js`, lê o arquivo arquivo `src/livros.txt` e retorna um array de objetos no formato JSON, a seguir tem-se o primeiro elemento do array retornado: 
+A função `txtToArray`, que está no arquivo `src/loadLivros.js`, lê o arquivo `src/livros.txt` e retorna um array de objetos no formato JSON, a seguir tem-se o primeiro elemento do array retornado: 
 ```
 {
   "disciplina": "Algoritmos e Lógica de Programação",
@@ -12,12 +12,12 @@ A função `txtToArray`, que está no arquivo `src/loadLivros.js`, lê o arquivo
   "ano": "2012"
 }
 ```
-Para testar utilize o exemplo1:
+Para testar o exemplo1:
 ```
 npm run exemplo1
 ```
 
-O arquivo `src/exemplo2.js` possui um código para ler os parâmetros passados pela linha de comando. Por exemplo o comando `npm run exemplo2 Maria` pegará o parâmetro _Maria_.
+O arquivo `src/exemplo2.js` possui o código para ler os parâmetros passados pela linha de comando. Por exemplo o comando `npm run exemplo2 Maria` pegará o parâmetro _Maria_.
 Para testar utilize:
 ```
 npm run exemplo2
@@ -32,8 +32,9 @@ npm run exemplo3
 Observação:
 - Deverá ser utilizadas as estruturas de repetição `for` ou `while` para percorrer os elementos do array, ou seja, não será permitido usar `forEach`, `map` e `filter` para iterar sobre os elementos do array.
 
-#### Exercício 1 (2,5 pts)
+#### Exercício 1 (2,5 pts.)
 Codificar um programa que recebe pela linha de comando o nome de uma disciplina e lista todos os livros dessa disciplina.
+
 1o teste:
 ```
 npm run um
@@ -88,8 +89,9 @@ Não existem livros da disciplina Programação
 ```
 
 
-#### Exercício 2 (2,5 pts)
+#### Exercício 2 (2,5 pts.)
 Codificar um programa que recebe pela linha de comando o nome de um livro e lista todas as disciplinas que utilizam esse livro.
+
 1o teste:
 ```
 npm run dois
@@ -121,8 +123,9 @@ Não existem disciplinas que utilizam o livro Programação
 ```
 
 
-#### Exercício 3 (2,5 pts)
+#### Exercício 3 (2,5 pts.)
 Codificar um programa que recebe pela linha de comando parte do nome de autor e lista todas os livros desse autor.
+
 1o teste:
 ```
 npm run tres
@@ -157,9 +160,10 @@ Não existem livros do autor JOÃO
 ```
 
 
-#### Exercício 4 (2,5 pts)
+#### Exercício 4 (2,5 pts.)
 Codificar um programa que imprime na tela os dados do livro que possui o título mais extenso.
-1o teste:
+
+Teste:
 ```
 npm run quatro
 ```
